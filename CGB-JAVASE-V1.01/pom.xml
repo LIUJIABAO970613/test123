@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.company</groupId>
+  <artifactId>CGB-JAVASE-V1.01</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+   <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <!-- test作用域在实际项目打包时，不会被打包到jar包或war包中 -->
+    <scope>test</scope>
+   </dependency>
+   <dependency>
+	<groupId>org.apache.tomcat.embed</groupId>
+	<artifactId>tomcat-embed-core</artifactId>
+	<version>9.0.12</version>
+   </dependency>
+   <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.8</version>
+    <scope>provided</scope>
+   </dependency>
+   <!-- mysql驱动 -->
+   <dependency>
+     <groupId>mysql</groupId>
+     <artifactId>mysql-connector-java</artifactId>
+     <version>8.0.17</version>
+   </dependency>
+   <!-- HiKariCp连接池 -->
+   <dependency>
+     <groupId>com.zaxxer</groupId>
+     <artifactId>HikariCP</artifactId>
+     <version>3.3.1</version>
+   </dependency>
+   <!-- Kryo序列化框架依赖 -->
+   <dependency>
+    <groupId>com.esotericsoftware</groupId>
+    <artifactId>kryo</artifactId>
+    <version>5.0.0-RC4</version>
+  </dependency>
+  
+  </dependencies>
+</project>
