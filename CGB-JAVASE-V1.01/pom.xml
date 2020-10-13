@@ -7,7 +7,7 @@
    <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
-    <version>4.12</version>
+    <version>4.13.1</version>
     <!-- test作用域在实际项目打包时，不会被打包到jar包或war包中 -->
     <scope>test</scope>
    </dependency>
